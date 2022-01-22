@@ -1,0 +1,161 @@
+/* Fonts */
+
+@font-face {
+    font-family: "Roboto";
+    src: url('../fonts/Roboto/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Cinzel";
+    src: url('../fonts/Cinzel/static/Cinzel-Regular.ttf');
+}
+
+
+* {
+    background-color: #fefefe;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.banner {
+    background-color: inherit;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    z-index: 2;
+    font-family: "Cinzel";
+    overflow: visible;
+}
+
+.name_heading {
+    display: inline;
+    padding: 50px 20px;
+    overflow: inherit;
+}
+
+.nav {
+    position: absolute;
+    right: 0px;
+    width: 400px;
+    padding: 50px 20px;
+    overflow: inherit;
+}
+
+ul {
+    list-style: none;
+    height: auto;
+    width: auto;
+    background-color: inherit;
+    overflow: inherit;
+}
+
+li {
+    display: inline;
+    background-color: inherit;
+    font-size: 25px;
+    overflow: inherit;
+}
+
+a:link, a:visited {
+    background-color: inherit;
+    color: #101010;
+    text-decoration: none;
+    padding: 10px;
+    overflow: inherit;
+}
+
+#active {
+    border: 2px solid black;
+    overflow: inherit;
+}
+
+a:hover {
+    background-color: inherit;
+    color: #10101077;
+}
+
+a:active {
+    background-color: black;
+    color: #fefefe;
+}
+
+#home-img {
+    width: 100%;
+    height: 100%;
+}
+
+.parent {
+    position: relative;
+    font-family: "Cinzel";
+}
+
+.child_name {
+    position: absolute;
+    top: 52%;
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.child_married {
+    position: absolute;
+    top: 61%;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.child_date {
+    position: absolute;
+    top: 68%;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.child_engagement {
+/*    position: absolute;
+    top: 90%; */
+    width: 100%;
+    height: 600px;
+    padding: 30px;
+    text-align: center;
+    font-size: 50px;
+    color: #000000;
+    background-color: #ffffff;
+    font-family: Cinzel;
+    position: relative;
+}
+
+#photo_engagement {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    height: 413px;
+    width: 350px;
+}
+
+#story {
+    position: absolute;
+    left: 45%;
+    margin-right: 25%;
+    top: 35%;
+    font-size: 20px;
+    font-family: Roboto;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #eeeeee;
+    font-family: "Roboto";
+    font-size: 20px;
+}
