@@ -334,3 +334,93 @@ footer {
     padding-top: 50px;
     font-family: "Cinzel";
 }
+
+
+@media screen and (max-width: 600px) {
+    .name_heading {
+        display: none;
+    }
+
+    .nav {
+        margin: 0 auto;
+        left: 0;
+    }
+
+    .child_name {
+        top: 65%;
+        font-size: 30px;
+    }
+
+    .child_married {
+        top: 75%;
+        font-size: 15px;
+    }
+
+    .child_date {
+        top: 80%;
+        font-size: 25px;
+    }
+
+    .child_engagement {
+        font-size: 30px;
+        height: auto;
+        position: static;
+        margin: 0 auto;
+        width: 400px;
+    }
+
+    #photo_engagement {
+        height: 413px;
+        width: 350px;
+        position: static;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    #story {
+        position: static;
+        margin: 0 auto;
+        width: 350px;
+    }
+
+    .info {
+        display: block;
+    }
+
+    #wedding_date {
+        display: block;
+    }
+
+    #hr_outside {
+        display: block;
+    }
+
+    #ia_kenosha {
+        display: block;
+    }
+
+    .pictures {
+        display: block;
+    }
+
+    #near_pond {
+        display: block;
+        margin: 0 auto;
+    }
+
+    #meadow_thinking {
+        display: block;
+        margin: 0 auto;
+    }
+
+    #paul_leads_leah {
+        display: block;
+        margin: 0 auto;
+    }
+
+    #leah_paul_kiss {
+        display: block;
+        margin: 0 auto;
+    }
+
+}
