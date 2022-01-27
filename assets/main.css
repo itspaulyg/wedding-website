@@ -343,7 +343,8 @@ footer {
 
     .nav {
         margin: 0 auto;
-        left: 0;
+        position: static;
+        width: 100%;
     }
 
     .child_name {
@@ -366,21 +367,21 @@ footer {
         height: auto;
         position: static;
         margin: 0 auto;
-        width: 400px;
+        width: 350px;
     }
 
     #photo_engagement {
-        height: 413px;
-        width: 350px;
+        height: 354px;
+        width: 300px;
         position: static;
         margin: 0 auto;
-        padding: 20px;
+        padding: 10px;
     }
 
     #story {
         position: static;
         margin: 0 auto;
-        width: 350px;
+        width: 300px;
     }
 
     .info {
