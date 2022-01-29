@@ -48,6 +48,7 @@ ul {
     width: auto;
     background-color: inherit;
     overflow: inherit;
+    padding: 0;
 }
 
 li {
@@ -101,6 +102,7 @@ a:active {
     font-size: 60px;
     color: #ffffff;
     background-color: transparent;
+    text-shadow: 1px 1px 5px #000000;
 }
 
 .child_married {
@@ -111,6 +113,7 @@ a:active {
     font-size: 30px;
     color: #ffffff;
     background-color: transparent;
+    text-shadow: 1px 1px 5px #000000;
 }
 
 .child_date {
@@ -121,6 +124,7 @@ a:active {
     font-size: 50px;
     color: #ffffff;
     background-color: transparent;
+    text-shadow: 1px 1px 5px #000000;
 }
 
 .child_engagement {
@@ -316,7 +320,14 @@ a:active {
 
 /* Registry */
 .links {
-    padding-top: 150px;
+    padding: 150px 25px;
+    font-family: "Roboto";
+    margin: 0 auto;
+    text-align: center;
+}
+
+.links h1 {
+    padding: 25px;
 }
 
 
@@ -336,7 +347,7 @@ footer {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) /*and (orientation: portrait)*/ {
     .name_heading {
         display: none;
     }
@@ -344,6 +355,13 @@ footer {
     .nav {
         margin: 0 auto;
         position: static;
+        width: auto;
+        padding: 50px 0px;
+    }
+
+    li {
+        font-size: 18px;
+        padding: 5px;
     }
 
     .child_name {
@@ -352,12 +370,12 @@ footer {
     }
 
     .child_married {
-        top: 75%;
+        top: 77%;
         font-size: 15px;
     }
 
     .child_date {
-        top: 80%;
+        top: 85%;
         font-size: 25px;
     }
 
