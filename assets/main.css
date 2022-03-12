@@ -307,14 +307,40 @@ a:active {
 
 /* Registry */
 .links {
-    padding: 150px 25px;
+    padding-top: 150px;
+    padding-bottom: 50px;
     font-family: "Roboto";
     margin: 0 auto;
     text-align: center;
 }
 
 .links h1 {
-    padding: 25px;
+    text-decoration: underline;
+    padding: 10px;
+}
+
+#registry_heading {
+    font-family: "Cinzel";
+    font-size: 300%;
+    padding: 20px;
+}
+
+#pottery_barn_living {
+    display: flex;
+    width: 40%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+#target_logo {
+    display: flex;
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 15px;
 }
 
 
@@ -449,6 +475,18 @@ footer {
     #leah_paul_woods {
         display: block;
         margin: 0 auto;
+    }
+
+    #registry_heading {
+        font-size: 150%;
+    }
+
+    #pottery_barn_living {
+        width: 70%;
+    }
+
+    #target_logo {
+        width: 75%;
     }
 
 }
